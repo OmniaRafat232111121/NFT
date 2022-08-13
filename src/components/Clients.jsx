@@ -5,7 +5,7 @@ export default function Clients() {
  
   return (
     <div className="clients">
-   Client
+     Client
     </div>
   );
 }
