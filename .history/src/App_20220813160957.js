@@ -11,7 +11,7 @@ import Signup from "./components/Signup";
 import SuperRare from "./components/SuperRare";
 import scrollreveal from "scrollreveal";
 import "./sass/index.scss";
-// import Loader from "./components/Loader";
+import Loader from "./components/Loader";
 function App() {
   const [theme, setTheme] = useState("dark");
   const changeTheme = () => {
@@ -54,7 +54,7 @@ function App() {
     <div data-theme={theme} className="app-container">
 
       <ScrollToTop />
-      
+      // <Loader />
       <Navbar changeTheme={changeTheme} currentTheme={theme} />
       <Home />
       <Free />
