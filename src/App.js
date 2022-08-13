@@ -12,9 +12,6 @@ import SuperRare from "./components/SuperRare";
 
 import "./sass/index.scss";
 function App() {
-
- 
- 
   return (
     <div  className="app-container">
       <ScrollToTop />
