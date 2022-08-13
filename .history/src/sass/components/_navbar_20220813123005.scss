@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .brand-container {
+    .brand {
+      img {
+        height: 100%;
+      }
+    }
+    .toggle-container {
+      display: none;
+      .toggle {
+      }
+      .mode {
+      }
+    }
+  }
+  .links-container {
+    .links {
+      list-style-type: none;
+      display: flex;
+      gap: 4rem;
+      li {
+    
+        a {
+          color: var(--accent-color3);
+          text-decoration: none;
+        }
+        &:last-of-type {
+          a {
+            color: var(--pink);
+          }
+        }
+      }
+    }
+  }
+}
+
+
